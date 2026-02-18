@@ -4,8 +4,7 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
-load_dotenv(env_path)
+load_dotenv()
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -21,12 +20,15 @@ app = FastAPI(
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "*"  # add this for now, restrict later after deployment
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 # Register routers
 app.include_router(customers.router)
 app.include_router(recommendations.router)
@@ -70,3 +72,7 @@ async def health():
         "weather_configured": weather_key,
         "mode": "live" if openai_key else "mock"
     }
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
