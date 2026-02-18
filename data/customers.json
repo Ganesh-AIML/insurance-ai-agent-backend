@@ -1,0 +1,795 @@
+[
+  {
+    "id": "CUST001",
+    "name": "Priya Sharma",
+    "age": 29,
+    "gender": "Female",
+    "marital_status": "Married",
+    "dependents": 1,
+    "occupation": "Software Engineer",
+    "annual_income": 1200000,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "existing_policies": ["health_basic"],
+    "credit_score": 780,
+    "risk_score": null,
+    "life_events": [
+      {"event": "marriage", "date": "2024-11-15"},
+      {"event": "first_child", "date": "2025-08-20"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.45, "preferred_time": "09:00"},
+      "sms": {"open_rate": 0.30, "preferred_time": "12:00"},
+      "whatsapp": {"open_rate": 0.72, "preferred_time": "20:00"},
+      "app_push": {"open_rate": 0.55, "preferred_time": "08:00"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-12-01",
+        "channel": "whatsapp",
+        "type": "offer_sent",
+        "product": "term_life",
+        "response": "rejected",
+        "reason": "too_expensive",
+        "sentiment": "neutral"
+      }
+    ],
+    "sentiment_state": "neutral",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "jewelry", "amount": 85000},
+      {"month": "2025-11", "category": "baby_store", "amount": 12000},
+      {"month": "2025-12", "category": "groceries", "amount": 8000}
+    ]
+  },
+  {
+    "id": "CUST002",
+    "name": "Rajesh Kumar",
+    "age": 45,
+    "gender": "Male",
+    "marital_status": "Married",
+    "dependents": 3,
+    "occupation": "Business Owner",
+    "annual_income": 3500000,
+    "city": "Delhi",
+    "state": "Delhi",
+    "existing_policies": ["health_family", "motor_comprehensive"],
+    "credit_score": 720,
+    "risk_score": null,
+    "life_events": [
+      {"event": "business_expansion", "date": "2025-06-01"},
+      {"event": "child_education_need", "date": "2025-09-01"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.60, "preferred_time": "10:00"},
+      "sms": {"open_rate": 0.25, "preferred_time": "14:00"},
+      "whatsapp": {"open_rate": 0.50, "preferred_time": "21:00"},
+      "app_push": {"open_rate": 0.35, "preferred_time": "09:00"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-11-15",
+        "channel": "email",
+        "type": "offer_sent",
+        "product": "child_education",
+        "response": "interested",
+        "reason": null,
+        "sentiment": "positive"
+      }
+    ],
+    "sentiment_state": "positive",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "education", "amount": 150000},
+      {"month": "2025-11", "category": "business_supplies", "amount": 200000},
+      {"month": "2025-12", "category": "travel_agency", "amount": 45000}
+    ]
+  },
+  {
+    "id": "CUST003",
+    "name": "Ananya Iyer",
+    "age": 24,
+    "gender": "Female",
+    "marital_status": "Single",
+    "dependents": 0,
+    "occupation": "Data Analyst",
+    "annual_income": 800000,
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "existing_policies": [],
+    "credit_score": 710,
+    "risk_score": null,
+    "life_events": [
+      {"event": "job_change", "date": "2025-10-01"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.35, "preferred_time": "08:00"},
+      "sms": {"open_rate": 0.20, "preferred_time": "13:00"},
+      "whatsapp": {"open_rate": 0.80, "preferred_time": "19:00"},
+      "app_push": {"open_rate": 0.65, "preferred_time": "07:30"}
+    },
+    "recent_interactions": [],
+    "sentiment_state": "neutral",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "electronics", "amount": 35000},
+      {"month": "2025-11", "category": "fitness", "amount": 5000},
+      {"month": "2025-12", "category": "travel_agency", "amount": 25000}
+    ]
+  },
+  {
+    "id": "CUST004",
+    "name": "Vikram Singh",
+    "age": 62,
+    "gender": "Male",
+    "marital_status": "Married",
+    "dependents": 0,
+    "occupation": "Retired Government Officer",
+    "annual_income": 600000,
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "existing_policies": ["health_basic", "term_life"],
+    "credit_score": 800,
+    "risk_score": null,
+    "life_events": [
+      {"event": "retirement", "date": "2024-03-31"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.55, "preferred_time": "10:00"},
+      "sms": {"open_rate": 0.70, "preferred_time": "11:00"},
+      "whatsapp": {"open_rate": 0.30, "preferred_time": "18:00"},
+      "app_push": {"open_rate": 0.15, "preferred_time": "10:00"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-11-20",
+        "channel": "sms",
+        "type": "offer_sent",
+        "product": "health_family",
+        "response": "rejected",
+        "reason": "already_covered",
+        "sentiment": "neutral"
+      }
+    ],
+    "sentiment_state": "neutral",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "pharmacy", "amount": 8000},
+      {"month": "2025-11", "category": "groceries", "amount": 12000},
+      {"month": "2025-12", "category": "travel_agency", "amount": 30000}
+    ]
+  },
+  {
+    "id": "CUST005",
+    "name": "Meera Nair",
+    "age": 35,
+    "gender": "Female",
+    "marital_status": "Married",
+    "dependents": 2,
+    "occupation": "Doctor",
+    "annual_income": 2200000,
+    "city": "Kochi",
+    "state": "Kerala",
+    "existing_policies": ["health_family", "term_life"],
+    "credit_score": 810,
+    "risk_score": null,
+    "life_events": [
+      {"event": "second_child", "date": "2025-05-10"},
+      {"event": "home_purchase", "date": "2025-09-15"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.70, "preferred_time": "07:00"},
+      "sms": {"open_rate": 0.40, "preferred_time": "13:00"},
+      "whatsapp": {"open_rate": 0.60, "preferred_time": "21:00"},
+      "app_push": {"open_rate": 0.50, "preferred_time": "06:30"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-12-10",
+        "channel": "email",
+        "type": "offer_sent",
+        "product": "home_insurance",
+        "response": "clicked",
+        "reason": null,
+        "sentiment": "positive"
+      }
+    ],
+    "sentiment_state": "positive",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-09", "category": "real_estate", "amount": 500000},
+      {"month": "2025-10", "category": "home_improvement", "amount": 150000},
+      {"month": "2025-11", "category": "baby_store", "amount": 18000}
+    ]
+  },
+  {
+    "id": "CUST006",
+    "name": "Arjun Patel",
+    "age": 28,
+    "gender": "Male",
+    "marital_status": "Single",
+    "dependents": 0,
+    "occupation": "Gig Worker - Delivery",
+    "annual_income": 360000,
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "existing_policies": [],
+    "credit_score": 580,
+    "risk_score": null,
+    "life_events": [],
+    "channel_preferences": {
+      "email": {"open_rate": 0.10, "preferred_time": "09:00"},
+      "sms": {"open_rate": 0.50, "preferred_time": "15:00"},
+      "whatsapp": {"open_rate": 0.75, "preferred_time": "22:00"},
+      "app_push": {"open_rate": 0.60, "preferred_time": "07:00"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-12-18",
+        "channel": "whatsapp",
+        "type": "offer_sent",
+        "product": "health_basic",
+        "response": "rejected",
+        "reason": "too_expensive",
+        "sentiment": "negative"
+      }
+    ],
+    "sentiment_state": "negative",
+    "last_support_ticket": {
+      "date": "2025-12-20",
+      "subject": "Claim not processed",
+      "text": "I have been waiting for 3 weeks for my accident claim to be processed. Nobody is responding to my calls. I am very frustrated and considering switching to another company. This is unacceptable service.",
+      "status": "open"
+    },
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "fuel", "amount": 8000},
+      {"month": "2025-11", "category": "vehicle_repair", "amount": 15000},
+      {"month": "2025-12", "category": "groceries", "amount": 5000}
+    ]
+  },
+  {
+    "id": "CUST007",
+    "name": "Sunita Devi",
+    "age": 52,
+    "gender": "Female",
+    "marital_status": "Widowed",
+    "dependents": 1,
+    "occupation": "School Teacher",
+    "annual_income": 480000,
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "existing_policies": ["health_basic"],
+    "credit_score": 690,
+    "risk_score": null,
+    "life_events": [
+      {"event": "child_education_need", "date": "2025-07-01"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.25, "preferred_time": "10:00"},
+      "sms": {"open_rate": 0.65, "preferred_time": "12:00"},
+      "whatsapp": {"open_rate": 0.45, "preferred_time": "19:00"},
+      "app_push": {"open_rate": 0.20, "preferred_time": "09:00"}
+    },
+    "recent_interactions": [],
+    "sentiment_state": "neutral",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "education", "amount": 25000},
+      {"month": "2025-11", "category": "groceries", "amount": 6000},
+      {"month": "2025-12", "category": "pharmacy", "amount": 4000}
+    ]
+  },
+  {
+    "id": "CUST008",
+    "name": "Karthik Rajan",
+    "age": 31,
+    "gender": "Male",
+    "marital_status": "Married",
+    "dependents": 1,
+    "occupation": "IT Manager",
+    "annual_income": 1800000,
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "existing_policies": ["health_family"],
+    "credit_score": 760,
+    "risk_score": null,
+    "life_events": [
+      {"event": "first_child", "date": "2025-11-01"},
+      {"event": "home_purchase", "date": "2025-04-20"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.50, "preferred_time": "08:30"},
+      "sms": {"open_rate": 0.35, "preferred_time": "13:00"},
+      "whatsapp": {"open_rate": 0.68, "preferred_time": "20:30"},
+      "app_push": {"open_rate": 0.58, "preferred_time": "07:00"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-12-05",
+        "channel": "app_push",
+        "type": "offer_sent",
+        "product": "term_life",
+        "response": "opened",
+        "reason": null,
+        "sentiment": "positive"
+      }
+    ],
+    "sentiment_state": "positive",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-04", "category": "real_estate", "amount": 800000},
+      {"month": "2025-10", "category": "baby_store", "amount": 22000},
+      {"month": "2025-11", "category": "home_improvement", "amount": 45000}
+    ]
+  },
+  {
+    "id": "CUST009",
+    "name": "Deepak Verma",
+    "age": 40,
+    "gender": "Male",
+    "marital_status": "Married",
+    "dependents": 2,
+    "occupation": "Construction Contractor",
+    "annual_income": 900000,
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "existing_policies": ["motor_comprehensive"],
+    "credit_score": 640,
+    "risk_score": null,
+    "life_events": [],
+    "channel_preferences": {
+      "email": {"open_rate": 0.15, "preferred_time": "10:00"},
+      "sms": {"open_rate": 0.55, "preferred_time": "14:00"},
+      "whatsapp": {"open_rate": 0.60, "preferred_time": "20:00"},
+      "app_push": {"open_rate": 0.30, "preferred_time": "08:00"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-11-01",
+        "channel": "sms",
+        "type": "offer_sent",
+        "product": "health_family",
+        "response": "rejected",
+        "reason": "not_interested",
+        "sentiment": "negative"
+      }
+    ],
+    "sentiment_state": "negative",
+    "last_support_ticket": {
+      "date": "2025-12-22",
+      "subject": "Premium increase without notice",
+      "text": "Why has my motor insurance premium gone up by 30%? Nobody informed me. I have been a loyal customer for 5 years and this is how you treat me? Very disappointed.",
+      "status": "open"
+    },
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "construction_materials", "amount": 120000},
+      {"month": "2025-11", "category": "vehicle_repair", "amount": 25000},
+      {"month": "2025-12", "category": "groceries", "amount": 10000}
+    ]
+  },
+  {
+    "id": "CUST010",
+    "name": "Fatima Sheikh",
+    "age": 33,
+    "gender": "Female",
+    "marital_status": "Married",
+    "dependents": 2,
+    "occupation": "Freelance Designer",
+    "annual_income": 700000,
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "existing_policies": ["health_basic"],
+    "credit_score": 700,
+    "risk_score": null,
+    "life_events": [
+      {"event": "first_child", "date": "2024-06-15"},
+      {"event": "second_child", "date": "2025-10-20"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.40, "preferred_time": "09:30"},
+      "sms": {"open_rate": 0.30, "preferred_time": "12:00"},
+      "whatsapp": {"open_rate": 0.78, "preferred_time": "21:30"},
+      "app_push": {"open_rate": 0.45, "preferred_time": "08:00"}
+    },
+    "recent_interactions": [],
+    "sentiment_state": "neutral",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "baby_store", "amount": 15000},
+      {"month": "2025-11", "category": "pediatric", "amount": 8000},
+      {"month": "2025-12", "category": "education", "amount": 10000}
+    ]
+  },
+  {
+    "id": "CUST011",
+    "name": "Rohan Mehta",
+    "age": 22,
+    "gender": "Male",
+    "marital_status": "Single",
+    "dependents": 0,
+    "occupation": "Student / Intern",
+    "annual_income": 240000,
+    "city": "Chandigarh",
+    "state": "Punjab",
+    "existing_policies": [],
+    "credit_score": 650,
+    "risk_score": null,
+    "life_events": [],
+    "channel_preferences": {
+      "email": {"open_rate": 0.20, "preferred_time": "11:00"},
+      "sms": {"open_rate": 0.25, "preferred_time": "15:00"},
+      "whatsapp": {"open_rate": 0.85, "preferred_time": "22:00"},
+      "app_push": {"open_rate": 0.70, "preferred_time": "09:00"}
+    },
+    "recent_interactions": [],
+    "sentiment_state": "neutral",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "electronics", "amount": 15000},
+      {"month": "2025-11", "category": "food_delivery", "amount": 4000},
+      {"month": "2025-12", "category": "travel_agency", "amount": 8000}
+    ]
+  },
+  {
+    "id": "CUST012",
+    "name": "Lakshmi Rao",
+    "age": 55,
+    "gender": "Female",
+    "marital_status": "Married",
+    "dependents": 0,
+    "occupation": "Senior Bank Manager",
+    "annual_income": 1600000,
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "existing_policies": ["health_family", "term_life", "motor_comprehensive"],
+    "credit_score": 830,
+    "risk_score": null,
+    "life_events": [
+      {"event": "retirement", "date": "2026-06-30"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.75, "preferred_time": "08:00"},
+      "sms": {"open_rate": 0.50, "preferred_time": "12:00"},
+      "whatsapp": {"open_rate": 0.40, "preferred_time": "19:00"},
+      "app_push": {"open_rate": 0.30, "preferred_time": "08:30"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-12-01",
+        "channel": "email",
+        "type": "offer_sent",
+        "product": "travel_insurance",
+        "response": "interested",
+        "reason": null,
+        "sentiment": "positive"
+      }
+    ],
+    "sentiment_state": "positive",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "travel_agency", "amount": 80000},
+      {"month": "2025-11", "category": "investment", "amount": 100000},
+      {"month": "2025-12", "category": "pharmacy", "amount": 6000}
+    ]
+  },
+  {
+    "id": "CUST013",
+    "name": "Amit Choudhury",
+    "age": 38,
+    "gender": "Male",
+    "marital_status": "Married",
+    "dependents": 2,
+    "occupation": "NRI - Tech Lead (Singapore)",
+    "annual_income": 5000000,
+    "city": "Delhi",
+    "state": "Delhi",
+    "existing_policies": ["health_basic"],
+    "credit_score": 790,
+    "risk_score": null,
+    "life_events": [
+      {"event": "home_purchase", "date": "2025-08-01"},
+      {"event": "child_education_need", "date": "2025-09-01"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.65, "preferred_time": "07:00"},
+      "sms": {"open_rate": 0.20, "preferred_time": "12:00"},
+      "whatsapp": {"open_rate": 0.70, "preferred_time": "20:00"},
+      "app_push": {"open_rate": 0.55, "preferred_time": "07:30"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-11-10",
+        "channel": "email",
+        "type": "offer_sent",
+        "product": "home_insurance",
+        "response": "opened",
+        "reason": null,
+        "sentiment": "neutral"
+      }
+    ],
+    "sentiment_state": "neutral",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-08", "category": "real_estate", "amount": 2000000},
+      {"month": "2025-10", "category": "education", "amount": 200000},
+      {"month": "2025-11", "category": "investment", "amount": 300000}
+    ]
+  },
+  {
+    "id": "CUST014",
+    "name": "Ramesh Yadav",
+    "age": 48,
+    "gender": "Male",
+    "marital_status": "Married",
+    "dependents": 4,
+    "occupation": "Farmer",
+    "annual_income": 300000,
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "existing_policies": [],
+    "credit_score": 550,
+    "risk_score": null,
+    "life_events": [],
+    "channel_preferences": {
+      "email": {"open_rate": 0.05, "preferred_time": "10:00"},
+      "sms": {"open_rate": 0.70, "preferred_time": "11:00"},
+      "whatsapp": {"open_rate": 0.40, "preferred_time": "19:00"},
+      "app_push": {"open_rate": 0.10, "preferred_time": "08:00"}
+    },
+    "recent_interactions": [],
+    "sentiment_state": "neutral",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "agriculture", "amount": 40000},
+      {"month": "2025-11", "category": "fertilizer", "amount": 15000},
+      {"month": "2025-12", "category": "groceries", "amount": 5000}
+    ]
+  },
+  {
+    "id": "CUST015",
+    "name": "Neha Gupta",
+    "age": 27,
+    "gender": "Female",
+    "marital_status": "Single",
+    "dependents": 0,
+    "occupation": "Marketing Manager",
+    "annual_income": 1000000,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "existing_policies": ["health_basic"],
+    "credit_score": 740,
+    "risk_score": null,
+    "life_events": [
+      {"event": "engagement", "date": "2025-12-10"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.55, "preferred_time": "09:00"},
+      "sms": {"open_rate": 0.30, "preferred_time": "13:00"},
+      "whatsapp": {"open_rate": 0.75, "preferred_time": "20:00"},
+      "app_push": {"open_rate": 0.60, "preferred_time": "08:00"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-12-12",
+        "channel": "whatsapp",
+        "type": "offer_sent",
+        "product": "term_life",
+        "response": "opened",
+        "reason": null,
+        "sentiment": "positive"
+      }
+    ],
+    "sentiment_state": "positive",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "jewelry", "amount": 120000},
+      {"month": "2025-11", "category": "wedding_venue", "amount": 200000},
+      {"month": "2025-12", "category": "clothing", "amount": 50000}
+    ]
+  },
+  {
+    "id": "CUST016",
+    "name": "Sanjay Mishra",
+    "age": 42,
+    "gender": "Male",
+    "marital_status": "Divorced",
+    "dependents": 1,
+    "occupation": "Mining Supervisor",
+    "annual_income": 650000,
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "existing_policies": ["health_basic"],
+    "credit_score": 620,
+    "risk_score": null,
+    "life_events": [],
+    "channel_preferences": {
+      "email": {"open_rate": 0.20, "preferred_time": "10:00"},
+      "sms": {"open_rate": 0.60, "preferred_time": "14:00"},
+      "whatsapp": {"open_rate": 0.50, "preferred_time": "20:00"},
+      "app_push": {"open_rate": 0.25, "preferred_time": "08:00"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-12-15",
+        "channel": "sms",
+        "type": "offer_sent",
+        "product": "term_life",
+        "response": "rejected",
+        "reason": "not_interested",
+        "sentiment": "negative"
+      }
+    ],
+    "sentiment_state": "negative",
+    "last_support_ticket": {
+      "date": "2025-12-25",
+      "subject": "Harassment from sales team",
+      "text": "I have told your team multiple times I am not interested but they keep calling me during work hours. This is harassment. I am filing a complaint with IRDAI if this doesn't stop. Leave me alone.",
+      "status": "open"
+    },
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "fuel", "amount": 12000},
+      {"month": "2025-11", "category": "groceries", "amount": 8000},
+      {"month": "2025-12", "category": "pharmacy", "amount": 5000}
+    ]
+  },
+  {
+    "id": "CUST017",
+    "name": "Pooja Deshmukh",
+    "age": 30,
+    "gender": "Female",
+    "marital_status": "Married",
+    "dependents": 1,
+    "occupation": "Chartered Accountant",
+    "annual_income": 1500000,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "existing_policies": ["health_family", "term_life"],
+    "credit_score": 800,
+    "risk_score": null,
+    "life_events": [
+      {"event": "marriage", "date": "2024-12-20"},
+      {"event": "first_child", "date": "2025-11-15"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.65, "preferred_time": "08:00"},
+      "sms": {"open_rate": 0.35, "preferred_time": "12:30"},
+      "whatsapp": {"open_rate": 0.70, "preferred_time": "21:00"},
+      "app_push": {"open_rate": 0.55, "preferred_time": "07:30"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-12-01",
+        "channel": "email",
+        "type": "offer_sent",
+        "product": "child_education",
+        "response": "interested",
+        "reason": null,
+        "sentiment": "positive"
+      }
+    ],
+    "sentiment_state": "positive",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-11", "category": "baby_store", "amount": 25000},
+      {"month": "2025-11", "category": "pediatric", "amount": 10000},
+      {"month": "2025-12", "category": "investment", "amount": 50000}
+    ]
+  },
+  {
+    "id": "CUST018",
+    "name": "Arun Krishnan",
+    "age": 36,
+    "gender": "Male",
+    "marital_status": "Married",
+    "dependents": 1,
+    "occupation": "Startup Founder",
+    "annual_income": 2800000,
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "existing_policies": ["health_basic", "motor_comprehensive"],
+    "credit_score": 750,
+    "risk_score": null,
+    "life_events": [
+      {"event": "business_expansion", "date": "2025-03-01"},
+      {"event": "first_child", "date": "2025-07-10"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.55, "preferred_time": "07:00"},
+      "sms": {"open_rate": 0.30, "preferred_time": "13:00"},
+      "whatsapp": {"open_rate": 0.65, "preferred_time": "22:00"},
+      "app_push": {"open_rate": 0.50, "preferred_time": "06:30"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-11-20",
+        "channel": "whatsapp",
+        "type": "offer_sent",
+        "product": "term_life",
+        "response": "interested",
+        "reason": null,
+        "sentiment": "positive"
+      }
+    ],
+    "sentiment_state": "positive",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "baby_store", "amount": 20000},
+      {"month": "2025-11", "category": "business_supplies", "amount": 150000},
+      {"month": "2025-12", "category": "travel_agency", "amount": 60000}
+    ]
+  },
+  {
+    "id": "CUST019",
+    "name": "Geeta Patel",
+    "age": 68,
+    "gender": "Female",
+    "marital_status": "Widowed",
+    "dependents": 0,
+    "occupation": "Retired",
+    "annual_income": 400000,
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "existing_policies": ["health_basic"],
+    "credit_score": 720,
+    "risk_score": null,
+    "life_events": [
+      {"event": "retirement", "date": "2020-03-31"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.30, "preferred_time": "10:00"},
+      "sms": {"open_rate": 0.75, "preferred_time": "11:00"},
+      "whatsapp": {"open_rate": 0.25, "preferred_time": "18:00"},
+      "app_push": {"open_rate": 0.10, "preferred_time": "10:00"}
+    },
+    "recent_interactions": [
+      {
+        "date": "2025-12-01",
+        "channel": "sms",
+        "type": "offer_sent",
+        "product": "health_family",
+        "response": "rejected",
+        "reason": "too_expensive",
+        "sentiment": "neutral"
+      }
+    ],
+    "sentiment_state": "neutral",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "pharmacy", "amount": 12000},
+      {"month": "2025-11", "category": "groceries", "amount": 8000},
+      {"month": "2025-12", "category": "religious_donation", "amount": 5000}
+    ]
+  },
+  {
+    "id": "CUST020",
+    "name": "Kabir Ahmed",
+    "age": 26,
+    "gender": "Male",
+    "marital_status": "Single",
+    "dependents": 0,
+    "occupation": "Travel Vlogger / Content Creator",
+    "annual_income": 900000,
+    "city": "Delhi",
+    "state": "Delhi",
+    "existing_policies": [],
+    "credit_score": 680,
+    "risk_score": null,
+    "life_events": [
+      {"event": "income_bump", "date": "2025-11-01"}
+    ],
+    "channel_preferences": {
+      "email": {"open_rate": 0.30, "preferred_time": "10:00"},
+      "sms": {"open_rate": 0.20, "preferred_time": "14:00"},
+      "whatsapp": {"open_rate": 0.80, "preferred_time": "21:00"},
+      "app_push": {"open_rate": 0.72, "preferred_time": "09:00"}
+    },
+    "recent_interactions": [],
+    "sentiment_state": "neutral",
+    "last_support_ticket": null,
+    "monthly_transactions": [
+      {"month": "2025-10", "category": "travel_agency", "amount": 80000},
+      {"month": "2025-11", "category": "adventure_sports", "amount": 25000},
+      {"month": "2025-12", "category": "electronics", "amount": 60000}
+    ]
+  }
+]

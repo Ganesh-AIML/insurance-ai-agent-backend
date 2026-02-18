@@ -1,0 +1,92 @@
+[
+  {
+    "id": "term_life",
+    "name": "SecureLife Term Plan",
+    "category": "life",
+    "min_cover": 5000000,
+    "premium_range": "500-2000/month",
+    "target_age": [25, 55],
+    "target_life_events": ["marriage", "first_child", "home_purchase", "engagement"],
+    "description": "Pure term life insurance with high coverage at low cost",
+    "benefits": ["Death benefit up to ₹2Cr", "Tax benefits under 80C", "Critical illness rider available"]
+  },
+  {
+    "id": "health_family",
+    "name": "FamilyShield Health Plan",
+    "category": "health",
+    "min_cover": 1000000,
+    "premium_range": "800-3000/month",
+    "target_age": [25, 60],
+    "target_life_events": ["marriage", "first_child", "second_child", "job_change"],
+    "description": "Comprehensive family floater health insurance",
+    "benefits": ["Cashless treatment at 5000+ hospitals", "No room rent capping", "Pre & post hospitalization cover"]
+  },
+  {
+    "id": "child_education",
+    "name": "FutureStar Child Plan",
+    "category": "investment",
+    "min_cover": 2500000,
+    "premium_range": "2000-10000/month",
+    "target_age": [25, 45],
+    "target_life_events": ["first_child", "second_child", "child_education_need"],
+    "description": "Education savings plan with insurance cover",
+    "benefits": ["Guaranteed maturity benefit", "Waiver of premium on death", "Flexible payout options for education milestones"]
+  },
+  {
+    "id": "motor_comprehensive",
+    "name": "DriveEasy Motor Insurance",
+    "category": "motor",
+    "min_cover": 500000,
+    "premium_range": "3000-15000/year",
+    "target_age": [18, 65],
+    "target_life_events": [],
+    "description": "Comprehensive car/bike insurance with roadside assistance",
+    "benefits": ["Zero depreciation cover", "24/7 roadside assistance", "Cashless repairs at 4000+ garages"]
+  },
+  {
+    "id": "home_insurance",
+    "name": "HomeGuard Property Plan",
+    "category": "property",
+    "min_cover": 2000000,
+    "premium_range": "1000-5000/year",
+    "target_age": [25, 65],
+    "target_life_events": ["home_purchase"],
+    "description": "Property and contents insurance for homeowners",
+    "benefits": ["Structure + contents cover", "Natural disaster protection", "Theft and burglary cover"]
+  },
+  {
+    "id": "travel_insurance",
+    "name": "GlobeTrotter Travel Cover",
+    "category": "travel",
+    "min_cover": 500000,
+    "premium_range": "200-1500/trip",
+    "target_age": [18, 70],
+    "target_life_events": ["frequent_traveler"],
+    "description": "International and domestic travel insurance",
+    "benefits": ["Medical emergency cover abroad", "Trip cancellation protection", "Lost baggage compensation"]
+  },
+  {
+    "id": "micro_weather",
+    "name": "FlashCover Weather Shield",
+    "category": "parametric",
+    "min_cover": 100000,
+    "premium_range": "49-299/event",
+    "target_age": [18, 70],
+    "target_life_events": [],
+    "description": "48-hour micro-insurance triggered by severe weather alerts",
+    "benefits": ["Instant activation on weather alert", "Auto-payout on verified event", "No claim filing needed"],
+    "parametric": true
+  },
+  {
+    "id": "micro_adventure",
+    "name": "InstaCover Adventure Shield",
+    "category": "parametric",
+    "min_cover": 200000,
+    "premium_range": "99-499/day",
+    "target_age": [18, 50],
+    "target_life_events": ["frequent_traveler"],
+    "description": "Instant activity-based micro-insurance (skiing, trekking, water sports)",
+    "benefits": ["Instant activation via app", "Activity-specific coverage", "Emergency evacuation included"],
+    "parametric": true
+  }
+]

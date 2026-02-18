@@ -1,0 +1,59 @@
+{
+  "CUST001": [
+    {"date": "2025-10-15", "channel": "email", "type": "offer_sent", "product": "health_family", "response": "opened", "reason": null, "sentiment": "neutral"},
+    {"date": "2025-11-01", "channel": "whatsapp", "type": "offer_sent", "product": "term_life", "response": "opened", "reason": null, "sentiment": "neutral"},
+    {"date": "2025-12-01", "channel": "whatsapp", "type": "offer_sent", "product": "term_life", "response": "rejected", "reason": "too_expensive", "sentiment": "neutral"}
+  ],
+  "CUST002": [
+    {"date": "2025-09-10", "channel": "email", "type": "offer_sent", "product": "child_education", "response": "opened", "reason": null, "sentiment": "positive"},
+    {"date": "2025-11-15", "channel": "email", "type": "offer_sent", "product": "child_education", "response": "interested", "reason": null, "sentiment": "positive"}
+  ],
+  "CUST003": [],
+  "CUST004": [
+    {"date": "2025-08-15", "channel": "sms", "type": "offer_sent", "product": "travel_insurance", "response": "opened", "reason": null, "sentiment": "neutral"},
+    {"date": "2025-11-20", "channel": "sms", "type": "offer_sent", "product": "health_family", "response": "rejected", "reason": "already_covered", "sentiment": "neutral"}
+  ],
+  "CUST005": [
+    {"date": "2025-10-05", "channel": "email", "type": "offer_sent", "product": "child_education", "response": "interested", "reason": null, "sentiment": "positive"},
+    {"date": "2025-12-10", "channel": "email", "type": "offer_sent", "product": "home_insurance", "response": "clicked", "reason": null, "sentiment": "positive"}
+  ],
+  "CUST006": [
+    {"date": "2025-11-10", "channel": "whatsapp", "type": "offer_sent", "product": "motor_comprehensive", "response": "opened", "reason": null, "sentiment": "neutral"},
+    {"date": "2025-12-18", "channel": "whatsapp", "type": "offer_sent", "product": "health_basic", "response": "rejected", "reason": "too_expensive", "sentiment": "negative"}
+  ],
+  "CUST007": [],
+  "CUST008": [
+    {"date": "2025-11-15", "channel": "app_push", "type": "offer_sent", "product": "home_insurance", "response": "opened", "reason": null, "sentiment": "neutral"},
+    {"date": "2025-12-05", "channel": "app_push", "type": "offer_sent", "product": "term_life", "response": "opened", "reason": null, "sentiment": "positive"}
+  ],
+  "CUST009": [
+    {"date": "2025-09-01", "channel": "sms", "type": "offer_sent", "product": "term_life", "response": "rejected", "reason": "too_expensive", "sentiment": "neutral"},
+    {"date": "2025-11-01", "channel": "sms", "type": "offer_sent", "product": "health_family", "response": "rejected", "reason": "not_interested", "sentiment": "negative"}
+  ],
+  "CUST010": [],
+  "CUST011": [],
+  "CUST012": [
+    {"date": "2025-12-01", "channel": "email", "type": "offer_sent", "product": "travel_insurance", "response": "interested", "reason": null, "sentiment": "positive"}
+  ],
+  "CUST013": [
+    {"date": "2025-11-10", "channel": "email", "type": "offer_sent", "product": "home_insurance", "response": "opened", "reason": null, "sentiment": "neutral"}
+  ],
+  "CUST014": [],
+  "CUST015": [
+    {"date": "2025-12-12", "channel": "whatsapp", "type": "offer_sent", "product": "term_life", "response": "opened", "reason": null, "sentiment": "positive"}
+  ],
+  "CUST016": [
+    {"date": "2025-10-01", "channel": "sms", "type": "offer_sent", "product": "health_family", "response": "rejected", "reason": "not_interested", "sentiment": "neutral"},
+    {"date": "2025-12-15", "channel": "sms", "type": "offer_sent", "product": "term_life", "response": "rejected", "reason": "not_interested", "sentiment": "negative"}
+  ],
+  "CUST017": [
+    {"date": "2025-12-01", "channel": "email", "type": "offer_sent", "product": "child_education", "response": "interested", "reason": null, "sentiment": "positive"}
+  ],
+  "CUST018": [
+    {"date": "2025-11-20", "channel": "whatsapp", "type": "offer_sent", "product": "term_life", "response": "interested", "reason": null, "sentiment": "positive"}
+  ],
+  "CUST019": [
+    {"date": "2025-12-01", "channel": "sms", "type": "offer_sent", "product": "health_family", "response": "rejected", "reason": "too_expensive", "sentiment": "neutral"}
+  ],
+  "CUST020": []
+}

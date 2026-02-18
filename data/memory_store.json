@@ -1,0 +1,46 @@
+{
+  "CUST001": {
+    "rejections": [
+      {"product": "term_life", "category": "life", "date": "2025-12-01", "reason": "too_expensive", "channel": "whatsapp"}
+    ],
+    "preferences_learned": ["price_sensitive"],
+    "last_updated": "2025-12-01"
+  },
+  "CUST004": {
+    "rejections": [
+      {"product": "health_family", "category": "health", "date": "2025-11-20", "reason": "already_covered", "channel": "sms"}
+    ],
+    "preferences_learned": ["has_existing_health_cover"],
+    "last_updated": "2025-11-20"
+  },
+  "CUST006": {
+    "rejections": [
+      {"product": "health_basic", "category": "health", "date": "2025-12-18", "reason": "too_expensive", "channel": "whatsapp"}
+    ],
+    "preferences_learned": ["budget_constrained"],
+    "last_updated": "2025-12-18"
+  },
+  "CUST009": {
+    "rejections": [
+      {"product": "term_life", "category": "life", "date": "2025-09-01", "reason": "too_expensive", "channel": "sms"},
+      {"product": "health_family", "category": "health", "date": "2025-11-01", "reason": "not_interested", "channel": "sms"}
+    ],
+    "preferences_learned": ["budget_constrained", "resistant_to_outreach"],
+    "last_updated": "2025-11-01"
+  },
+  "CUST016": {
+    "rejections": [
+      {"product": "health_family", "category": "health", "date": "2025-10-01", "reason": "not_interested", "channel": "sms"},
+      {"product": "term_life", "category": "life", "date": "2025-12-15", "reason": "not_interested", "channel": "sms"}
+    ],
+    "preferences_learned": ["resistant_to_outreach", "do_not_call_preference"],
+    "last_updated": "2025-12-15"
+  },
+  "CUST019": {
+    "rejections": [
+      {"product": "health_family", "category": "health", "date": "2025-12-01", "reason": "too_expensive", "channel": "sms"}
+    ],
+    "preferences_learned": ["price_sensitive", "senior_needs"],
+    "last_updated": "2025-12-01"
+  }
+}
